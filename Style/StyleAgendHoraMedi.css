@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+}
+body{
+  margin: 0%;
+  background-color: #f1f1f1;
+}
+Header{
+  background-color: #00A09C;
+  padding: 20px 30px 25px;
+}
+a{
+  text-decoration: none;
+}
+.HeaderDere{
+  float: right;
+  text-align: right;
+}
+.LogoClini{
+  max-width: 15%;
+}
+.UserIco{
+  max-width: 7%;
+}
+.NomUsu{
+  font-size: 30px;
+  color: black
+}
+
+.Histo{
+  margin: 10px;
+  font-size: 18px;
+}
+.Histo a{
+  color:grey;
+}
+h1{
+  color: #0B5EA6;
+  text-align: center;
+}
+.Buscador{
+  background-color: #5bc0be;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #0e68ee;
+  max-width: 50%;
+  min-width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form{
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+label{
+  padding: 10px;
+}
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+footer{
+  background-color: #00A09C;
+  padding: 30px 30px 40px;
+}
+.FootDere{
+  float: right;
+  text-align: right;
+  margin-top: -20px;
+}
+footer a{
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.LogosExter{
+  width: 15%;
+}

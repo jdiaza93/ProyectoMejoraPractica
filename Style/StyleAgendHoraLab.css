@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+}
+body{
+  margin: 0%;
+  background-color: #f1f1f1;
+}
+Header{
+  background-color: #00A09C;
+  padding: 20px 30px 25px;
+}
+a{
+  text-decoration: none;
+}
+.HeaderDere{
+  float: right;
+  text-align: right;
+}
+.LogoClini{
+  max-width: 15%;
+}
+.UserIco{
+  max-width: 7%;
+}
+.NomUsu{
+  font-size: 30px;
+  color: black
+}
+.Histori{
+  margin: 10px;
+  font-size: 18px;
+}
+.Histori a{
+  color: grey;
+}
+
+h1{
+  color: #0B5EA6;
+  text-align: center;
+}
+button{
+  background-color: #00AFAE;
+  border-radius: 8px;
+  border-color: aliceblue;
+  width: 50%;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 0%;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  color: white;
+}
+.active, .collapsible:hover{
+  background-color: #0B5ED7;
+}
+.ContCollap{
+  border-radius: 8px;
+  border-color: aliceblue;
+  width: 50%;
+  margin: auto;
+  font-size: 30px;
+  display: none;
+  overflow: hidden;
+  background-color: #b8cfcf;
+  padding: 15px;
+}
+.Botones{
+  margin-top: 20px;
+  text-align: center;
+}
+.ContCollap p{
+    text-align: left;
+    font-size: 25px;
+}
+.btn.btn-primary{
+  background-color: #00AFAE;
+  border-radius: 8px;
+  border-color: aliceblue;
+  width: 50%;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 0%;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  color: white;
+}
+.btn.btn-primary:hover{
+  background-color: #0B5ED7;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+footer{
+  background-color: #00A09C;
+  padding: 30px 30px 40px;
+}
+.FootDere{
+  float: right;
+  text-align: right;
+  margin-top: -20px;
+}
+footer a{
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.LogosExter{
+  width: 15%;
+}

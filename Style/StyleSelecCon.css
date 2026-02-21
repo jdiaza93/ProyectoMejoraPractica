@@ -1,0 +1,59 @@
+body{
+    background-color: #e2e2e2;
+}
+h1{
+    text-align: center;
+}
+.Opciones{
+    margin: auto;
+    max-width: 25%;
+    border: 3px solid rgb(0, 81, 255);
+    background-color: aliceblue;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(0,0,1,0.9);
+    padding: 20px;
+    text-align: center;
+}
+.Opciones:hover{
+    background-color: #80e5ff;
+    transition-duration: 0.4s;
+}
+.Container{
+    max-width: 25%;
+    border: 3px solid rgb(0, 81, 255);
+    background-color: aliceblue;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(0,0,1,0.9);
+    padding: 20px;
+    text-align: center;    
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    max-width: 20%;
+    float: left;
+}
+p{
+    font-size: 20px;
+}
+.MensError{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+.Espacio{
+    margin: 10px;
+}
+input{
+    margin: 1%;
+}
+a{
+    margin: 1%;
+}

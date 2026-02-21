@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+}
+body{
+  margin: 0%;
+  background-color: #f1f1f1;
+}
+Header{
+  background-color: #00A09C;
+  padding: 20px 30px 25px;
+}
+a{
+  text-decoration: none;
+}
+.HeaderDere{
+  float: right;
+  text-align: right;
+}
+.LogoClini{
+  max-width: 15%;
+}
+.UserIco{
+  max-width: 7%;
+}
+.NomUsu{
+  font-size: 30px;
+  color: black
+}
+
+.cuadrDatos{
+    margin: auto;
+    margin-top: 30px;
+    max-width: 20%;
+    border: 3px solid;
+    border-radius:10px;
+    padding: 10px;
+    text-align: center;
+}
+.FormContene{
+    display: table-row;
+    align-items: center;
+}
+label{
+    display: table-cell;
+}
+input[type="text"], input[type="tel"], input[type="email"]{
+    margin: 10px;
+    border: 3px solid #ccc;
+    outline: none;
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 4px;
+    width: 100%;
+    display: table-cell;
+}
+.cerrSes{
+  text-align: center;
+  margin-top: 15px;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+footer{
+  background-color: #00A09C;
+  padding: 30px 30px 40px;
+}
+.FootDere{
+  float: right;
+  text-align: right;
+  margin-top: -20px;
+}
+footer a{
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.LogosExter{
+  width: 15%;
+}
+
+.MensActua{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: green;
+}
+.BotCerBi, .BotCerEr{
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.BotCerBi:hover, .BotCerBi:focus, .BotCerEr:hover, .BotCerEr:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

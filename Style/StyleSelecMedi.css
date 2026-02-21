@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+}
+body{
+  margin: 0%;
+  background-color: #f1f1f1;
+}
+Header{
+  background-color: #00A09C;
+  padding: 20px 30px 25px;
+}
+a{
+  text-decoration: none;
+}
+.HeaderDere{
+  float: right;
+  text-align: right;
+}
+.LogoClini{
+  max-width: 15%;
+}
+.UserIco{
+  max-width: 7%;
+}
+.NomUsu{
+  font-size: 30px;
+  color: black
+}
+.Histori{
+  margin: 10px;
+  font-size: 18px;
+}
+.Histori a{
+  color: grey;
+}
+.MenSinMed{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+button{
+  background-color: #5bc0be;
+  border-radius: 8px;
+  border-color: aliceblue;
+  width: 50%;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 0%;
+  font-size: 30px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #0e68ee;
+}
+.Container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Botones{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Botones img{
+  max-width: 30%;
+}
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+footer{
+  background-color: #00A09C;
+  padding: 30px 30px 40px;
+}
+.FootDere{
+  float: right;
+  text-align: right;
+  margin-top: -20px;
+}
+footer a{
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.LogosExter{
+  width: 15%;
+}

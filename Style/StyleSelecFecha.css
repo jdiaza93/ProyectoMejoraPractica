@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+}
+body{
+  margin: 0%;
+  background-color: #f1f1f1;
+}
+Header{
+  background-color: #00A09C;
+  padding: 20px 30px 25px;
+}
+a{
+  text-decoration: none;
+}
+.HeaderDere{
+  float: right;
+  text-align: right;
+}
+.LogoClini{
+  max-width: 15%;
+}
+.UserIco{
+  max-width: 7%;
+}
+.NomUsu{
+  font-size: 30px;
+  color: black
+}
+.Histori{
+  margin: 10px;
+  font-size: 18px;
+}
+.Histori a{
+  color: grey;
+}
+.MensRecord{
+  text-align: center;
+  font-size: 30px;
+  margin: 50px;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+footer{
+  background-color: #00A09C;
+  padding: 30px 30px 40px;
+}
+.FootDere{
+  float: right;
+  text-align: right;
+  margin-top: -20px;
+}
+footer a{
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.LogosExter{
+  width: 15%;
+}
